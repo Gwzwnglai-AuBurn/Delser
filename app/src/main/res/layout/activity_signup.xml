@@ -24,7 +24,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Let's know you, shall we?"
+            android:textSize="@dimen/login_prompts"
+            android:text="@string/sign_up_prompt"
             android:layout_marginBottom="40dp"/>
 
 
@@ -34,9 +35,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:background="@drawable/login_input_field"
             android:hint="Name"
             android:inputType="textPersonName"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="20dp"
             />
 
         <EditText
@@ -44,9 +46,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/login_input_field"
             android:ems="10"
             android:hint="Email address"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="20dp"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -54,9 +57,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/login_input_field"
             android:ems="10"
             android:hint="Password"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="20dp"
             android:inputType="textPassword" />
 
         <EditText
@@ -65,8 +69,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:background="@drawable/login_input_field"
             android:hint="Confirm Password"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="20dp"
             android:inputType="textPassword" />
 
         <CheckBox

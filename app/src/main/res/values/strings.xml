@@ -15,5 +15,7 @@
     <string name="otp_prompt_forgot_pass">A unique OTP has been sent to your email-ID. Please enter it below</string>
 
     <string name="terms_and_condition_checkbox">I agree to all the terms and conditions</string>
+    <string name="sign_up_prompt">Let\'s know you, shall we?</string>
+    <string name="password_hint">Password</string>
 
 </resources>
