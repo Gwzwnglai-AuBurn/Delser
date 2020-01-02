@@ -8,11 +8,23 @@
     android:background="#FDCAC7">
 
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        />
     <LinearLayout
         android:id="@+id/navBar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search_black"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -40,6 +52,8 @@
             android:background="@android:color/transparent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+
 
     </LinearLayout>
 
