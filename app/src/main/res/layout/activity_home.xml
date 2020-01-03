@@ -8,9 +8,6 @@
     android:background="#FDCAC7">
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-
-        />
     <LinearLayout
         android:id="@+id/navBar"
         android:layout_width="match_parent"

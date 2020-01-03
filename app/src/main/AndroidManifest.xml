@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Faves"
-            android:label="@string/title_activity_faves"></activity>
+            android:name=".MainUi"
+            android:label="@string/title_home"></activity>
         <activity android:name=".ForgotPasswordActivity" />
         <activity
             android:name=".SplashScreen"

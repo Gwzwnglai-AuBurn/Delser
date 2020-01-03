@@ -7,20 +7,20 @@
     android:background="@color/colorPrimary">
 
     <TextView
-        android:id="@+id/text_recently_played"
+        android:id="@+id/text_fav_podcasts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Recently Played"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="@+id/scrollView_recently_played"
+        android:text="Favorite Podcasts"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView_fav_podcasts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
-        android:id="@+id/scrollView_recently_played"
+        android:id="@+id/scrollView_fav_podcasts"
         android:layout_width="409dp"
         android:layout_height="286dp"
         android:layout_marginStart="1dp"
@@ -44,10 +44,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.45" />
+        app:layout_constraintGuide_percent="0.5" />
 
     <ScrollView
-        android:id="@+id/scrollView_class_playlist"
+        android:id="@+id/scrollView_fav_playlists"
         android:layout_width="409dp"
         android:layout_height="269dp"
         android:layout_marginStart="1dp"
@@ -65,14 +65,14 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/text_classplaylist"
+        android:id="@+id/text_fav_playlists"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Class Playlists"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="@+id/scrollView_class_playlist"
+        android:text="Favorite Playlists"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView_fav_playlists"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
