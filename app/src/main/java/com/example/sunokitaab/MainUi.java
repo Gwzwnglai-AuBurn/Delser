@@ -27,6 +27,7 @@ public class MainUi extends AppCompatActivity{
         setContentView(R.layout.activity_main_ui);
 
 
+
         navigation = findViewById(R.id.nav_view);
         frameLayout = findViewById(R.id.nav_host_fragment);
 
@@ -34,6 +35,8 @@ public class MainUi extends AppCompatActivity{
         favesFragment = new FavesFragment();
         searchFragment = new SearchFragment();
         downloadedFragment = new DownloadedFragment();
+
+        loadFragment(homeFragment);
 
         navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

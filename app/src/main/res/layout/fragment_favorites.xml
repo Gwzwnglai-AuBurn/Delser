@@ -13,7 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="Favorite Podcasts"
-        android:textSize="30sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/scrollView_fav_podcasts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -21,8 +21,8 @@
 
     <ScrollView
         android:id="@+id/scrollView_fav_podcasts"
-        android:layout_width="409dp"
-        android:layout_height="286dp"
+        android:layout_width="417dp"
+        android:layout_height="200dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginTop="1dp"
@@ -44,19 +44,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0." />
 
     <ScrollView
         android:id="@+id/scrollView_fav_playlists"
         android:layout_width="409dp"
-        android:layout_height="269dp"
+        android:layout_height="200dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline">
+        app:layout_constraintTop_toBottomOf="@+id/scrollView_fav_podcasts">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,7 +72,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="Favorite Playlists"
-        android:textSize="30sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/scrollView_fav_playlists"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

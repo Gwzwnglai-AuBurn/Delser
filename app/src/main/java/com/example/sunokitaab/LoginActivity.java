@@ -34,5 +34,6 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainUi.class);
         Log.d("login", "login button pressed");
         startActivity(intent);
+        finish();
     }
 }
