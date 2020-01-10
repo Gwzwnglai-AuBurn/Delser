@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -30,7 +31,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        Intent intent = new Intent(this, HomeActivity.class);
+        Intent intent = new Intent(this, MainUi.class);
+        Log.d("login", "login button pressed");
         startActivity(intent);
+        finish();
     }
 }

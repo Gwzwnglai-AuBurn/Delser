@@ -18,4 +18,10 @@
     <string name="sign_up_prompt">Let\'s know you, shall we?</string>
     <string name="password_hint">Password</string>
 
+
+    <string name="title_favourites"></string>
+    <string name="title_home"></string>
+    <string name="title_search"></string>
+    <string name="title_downloaded"></string>
+
 </resources>
