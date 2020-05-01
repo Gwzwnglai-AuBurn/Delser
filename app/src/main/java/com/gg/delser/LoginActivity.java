@@ -1,4 +1,4 @@
-package com.example.sunokitaab;
+package com.gg.delser;
 
 import androidx.appcompat.app.AppCompatActivity;
 

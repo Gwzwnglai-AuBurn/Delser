@@ -1,16 +1,15 @@
-package com.example.sunokitaab;
+package com.gg.delser;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Menu;
 
 public class SplashScreen extends AppCompatActivity {
 
     /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 1000;
+    private final int SPLASH_DISPLAY_LENGTH = 600;
 
     /** Called when the activity is first created. */
     @Override
@@ -24,7 +23,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(SplashScreen.this, LoginActivity.class);
+                Intent mainIntent = new Intent(SplashScreen.this, UserType.class);
                 SplashScreen.this.startActivity(mainIntent);
                 SplashScreen.this.finish();
             }

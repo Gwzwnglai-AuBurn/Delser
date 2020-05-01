@@ -1,4 +1,4 @@
-package com.example.sunokitaab;
+package com.gg.delser;
 
 import org.junit.Test;
 

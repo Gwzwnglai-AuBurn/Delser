@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sunokitaab">
+    package="com.gg.delser">
 
     <application
         android:allowBackup="true"
@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".UserType"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
             android:name=".MainUi"
-            android:label="@string/title_home"></activity>
+            android:label="@string/title_home" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity
             android:name=".SplashScreen"

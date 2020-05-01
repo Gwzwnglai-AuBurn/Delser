@@ -1,4 +1,4 @@
-package com.example.sunokitaab.ui.dashboard;
+package com.gg.delser.ui.dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.sunokitaab.R;
+import com.gg.delser.R;
 
 public class DashboardFragment extends Fragment {
 

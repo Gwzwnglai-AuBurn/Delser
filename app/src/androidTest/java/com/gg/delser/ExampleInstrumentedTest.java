@@ -1,4 +1,4 @@
-package com.example.sunokitaab;
+package com.gg.delser;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.sunokitaab", appContext.getPackageName());
+        assertEquals("com.gg.delser.", appContext.getPackageName());
     }
 }
